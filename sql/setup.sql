@@ -5,6 +5,6 @@ CREATE TABLE books (
     title TEXT NOT NULL,
     cover TEXT NOT NULL,
     rating TEXT NOT NULL,
-    price DECIMAL(10,2),
+    price TEXT NOT NULL,
     in_stock BOOLEAN NOT NULL
 )
